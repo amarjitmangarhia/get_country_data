@@ -33,7 +33,8 @@ const SearchBar = () => {
             <Form.Control type="email" placeholder="Search Any Country" ref={searchValue}></Form.Control>
             <Button onClick={getData}>Search</Button>
           </InputGroup>
-          <p className='position-absolute w-auto' style={{bottom: "240px"}}>{error}</p>
+          {/* <p className='position-absolute w-auto' style={{bottom: "240px"}}>{error}</p> */}
+          <p style={{marginTop: "10px"}}>{error}</p>
         </Row>
 
 
