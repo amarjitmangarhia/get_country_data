@@ -8,7 +8,7 @@ import bg from "./img/bg.jpg"
 import './App.css';
 
 function App() {
-  //f
+  
 
   return (
 
